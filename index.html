@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailWindCSS</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Ubuntu&display=swap');
+    
+        .font-family-ubuntu {
+            font-family: 'Ubuntu';
+        }
+    </style>
+
+</head>
+<body class="bg-white font-family-ubuntu">
+    <nav class="w-full bg-blue-800 py-4 shadow">
+        <div class="w-full container mx-auto flex flex-wrap items-center justify-between">
+            <nav>
+                <ul class="flex items-center font-bold text-sm text-white uppercase no-underline justify-between">
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="">Главная</a></li>
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="">Авторизация</a></li>
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="">Регистрация</a></li>
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="">Как нас найти</a></li>
+                    <li><a class="hover:text-gray-200 hover:underline px-4" href="">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="flex items-center text-lg no-underline text-white pr-6">
+                <a href="">
+                    <i class="fab fa-vk"></i>
+                </a>
+                <a class="pl-6" href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a class="pl-6" href="">
+                    <i class="fab fa-odnoklassniki"></i>
+                </a>
+                <a class="pl-6" href="">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="w-full container mx-auto">
+        <div class="flex flex-col items-center py-12">
+            <a href="">
+                <img class="w-60" src="https://avatars.mds.yandex.net/i?id=4b60c1831975eec7c8b0f8a29bfee838220989ed-5340221-images-thumbs&n=13" alt="">
+            </a>
+            <p class="text-lg text-gray-600 mt-4">
+                Механизмы и инструменты выполнения конкурсного задания по компетенции веб-технологии
+            </p>
+        </div>
+    </header>
+
+    <nav class="w-full py-4 border-t border-b bg-gray-100">
+        <div class="w-full container mx-auto flex flex-grow items-center justify-center text-sm font-bold uppercase mt-0 px-6 py-2">
+            <a class="hover:bg-gray-400 rounded py-2 px-4 mx-2" href="">BACKEND</a>
+            <a class="hover:bg-gray-400 rounded py-2 px-4 mx-2" href="">FRONTEND</a>
+            <a class="hover:bg-gray-400 rounded py-2 px-4 mx-2" href="">LAYOUT</a>
+            <a class="hover:bg-gray-400 rounded py-2 px-4 mx-2" href="">CMS</a>
+            <a class="hover:bg-gray-400 rounded py-2 px-4 mx-2" href="">DATABASES</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto flex flex-wrap py-6">
+        <section class="w-full md:w-2/3 flex flex-col items-center px-3">
+
+            <!-- 1 -->
+
+            <article class="flex flex-col shadow my-4">
+                <a href="#" class="hover:opacity-75">
+                    <img src="https://placehold.it/1000x500/2ecc71/ecf0f1" alt="">
+                </a>
+
+                <div class="bg-white flex flex-col justify-start p-6">
+                    <a class="text-blue-700 text-sm font-bold uppercase pb-4" href="#">BACKEND</a>
+                    <a class="text-3xl font-bold hover:text-gray-700 pb-4" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                    <p class="text-sm pb-3">
+                        Автор: <a href="#">Осконбаев Александр</a>, Дата публикации: 25.05.2023
+                    </p>
+                    <a class="pb-6" href="#">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quidem, iure repellendus hic quibusdam eos! Excepturi unde quis id deserunt! Modi praesentium ad ducimus consequuntur eveniet voluptatibus dolorem alias aut!
+                    </a>
+                    <a class="uppercase text-gray-800 hover:text-black" href="#">Читать далее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- 2 -->
+
+            <article class="flex flex-col shadow my-4">
+                <a href="#" class="hover:opacity-75">
+                    <img src="https://placehold.it/1000x500/2ecc71/ecf0f1" alt="">
+                </a>
+
+                <div class="bg-white flex flex-col justify-start p-6">
+                    <a class="text-blue-700 text-sm font-bold uppercase pb-4" href="#">BACKEND</a>
+                    <a class="text-3xl font-bold hover:text-gray-700 pb-4" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                    <p class="text-sm pb-3">
+                        Автор: <a href="#">Осконбаев Александр</a>, Дата публикации: 25.05.2023
+                    </p>
+                    <a class="pb-6" href="#">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quidem, iure repellendus hic quibusdam eos! Excepturi unde quis id deserunt! Modi praesentium ad ducimus consequuntur eveniet voluptatibus dolorem alias aut!
+                    </a>
+                    <a class="uppercase text-gray-800 hover:text-black" href="#">Читать далее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- 3 -->
+
+            <article class="flex flex-col shadow my-4">
+                <a href="#" class="hover:opacity-75">
+                    <img src="https://placehold.it/1000x500/2ecc71/ecf0f1" alt="">
+                </a>
+
+                <div class="bg-white flex flex-col justify-start p-6">
+                    <a class="text-blue-700 text-sm font-bold uppercase pb-4" href="#">BACKEND</a>
+                    <a class="text-3xl font-bold hover:text-gray-700 pb-4" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                    <p class="text-sm pb-3">
+                        Автор: <a href="#">Осконбаев Александр</a>, Дата публикации: 25.05.2023
+                    </p>
+                    <a class="pb-6" href="#">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quidem, iure repellendus hic quibusdam eos! Excepturi unde quis id deserunt! Modi praesentium ad ducimus consequuntur eveniet voluptatibus dolorem alias aut!
+                    </a>
+                    <a class="uppercase text-gray-800 hover:text-black" href="#">Читать далее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <div class="flex items-center py-8">
+                <a href="#" class="h-10 w-10 bg-blue-800 hover:bg-blue-600 font-semibold text-white text-sm flex items-center justify-center">1</a>
+                <a href="#" class="h-10 w-10 bg-blue-800 hover:bg-blue-600 font-semibold text-white text-sm flex items-center justify-center">2</a>
+                <a href="#" class="h-10 w-36 bg-blue-800 hover:bg-blue-600 font-semibold text-white text-sm flex items-center justify-center">Дальше <i class="fas fa-arrow-right ml-4"></i></a>
+            </div>
+        </section>
+
+
+        <!-- RIGHTSIDE -->
+
+        <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
+            <div class="w-full bg-white shadow flex flex-col my-4 p-6">
+                <p class="text-xl font-semibold pb-6 uppercase">Немного о нас</p>
+                <p class="pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus quis veniam suscipit reiciendis repellat tempore error fugiat voluptatibus, nihil atque cum assumenda? Recusandae magnam quos velit consectetur amet laborum reiciendis.</p>
+                <a class="w-full bg-blue-800 text-white font-bold text-sm uppercase 
+                rounded hover:bg-blue-700 flex items-center 
+                justify-center px-2 py-3 mt-4" href="#">Узнать подробнее</a>
+            </div>
+
+            <div class="w-full bg-white shadow flex flex-col my-4 p-6">
+                <p class="text-xl font-semibold pb-6 uppercase">Мы вконтакте</p>
+                <div class="mx-auto text-center">
+                    <img src="vk.png" alt="">
+                </div>
+                <a class="w-full bg-blue-800 text-white font-bold text-sm 
+                uppercase rounded hover:bg-blue-700 flex items-center 
+                justify-center px-2 py-3 mt-6" href="#"> <i class="fab fa-vk mr-2"></i> Подписаться</a>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="w-full border-t bg-white pb-12">
+        <div class="w-full container mx-auto flex flex-col items-center">
+            <div class="flex flex-col md:flex-row text-center md:text-left md:justify-between py-6">
+                <a class="uppercase px-3" href="">О нас</a>
+                <a class="uppercase px-3" href="">Политика конфиденциальности</a>
+                <a class="uppercase px-3" href="">Правила пользователя</a>
+                <a class="uppercase px-3" href="">Связь с нами</a>
+            </div>
+            <div class="uppercase pb-6">&copy; site.ru</div>
+        </div>
+    </footer>
+
+</body>
+</html> 
